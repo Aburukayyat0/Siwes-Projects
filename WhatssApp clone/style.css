@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+    max-height: 100vh;
+    position: fixed;
+    background:  rgba(53, 51, 51, 0.747);
+    font-family: poppins;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(19, 18, 18);
+    width: 100%;
+    max-height: 20%;
+    padding: 10px;
+    color: white;
+}
+.whatssapp span{
+    margin-left: 10px;
+    color: antiquewhite;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+.exitsbtn button{
+    padding: 3px 7px;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background: transparent;
+    color: white;
+    margin: 5px;
+}
+.exitsbtn button:hover{
+    background: grey;
+}
+.container{
+    width: 100%;
+    max-height: 100%;
+    background:  rgba(53, 51, 51, 0.747);
+}
+.side1{
+    background:  rgb(19, 18, 18);
+    width: 70px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+}
+.side1 .img1 img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.side1 .img2 img{
+    max-width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.side1 .img2{
+    margin-top: 40px;
+}
+.container .side2{
+    width: 380px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    float: left;
+    background:  rgba(29, 28, 28, 0.918);
+    border-top-left-radius: 4px;
+    border-left: 2px solid rgba(53, 51, 51, 0.747);
+    border-right: 1px solid rgba(12, 12, 12, 0.966);
+}
+.side2 .head1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 15px;
+    color: white;
+}
+.side2 .head1 .menu img{
+    display: inline-block;
+    padding: 5px;
+}
+.searchbox{
+    margin: 10px 0px;
+    width: 340px;
+    margin-left: 25px;
+    background: grey;
+    border: 1px solid rgb(41, 39, 39);
+    outline: none;
+    border-bottom: 2px solid white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+}
+.searchbox input{
+    margin: 0px auto;
+    margin-right: 5px;
+    width: 340px;
+    padding: 5px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.searchbox input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+}
+.profilepix{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.proimg img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+.profilename{
+    margin-left: 10px;
+    font-size: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.profilename h2{
+    font-size: 17px;
+}
+.side3{
+    background: grey;
+    width: 450px;
+    height: cover;
+}
+.side3{
+    position: relative;
+    width: 962px;
+    height: 650px;
+    background: rgba(29, 28, 28, 0.918);
+    margin-left: 450px;
+}
+.side3 .messagedisplay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.side3 .messagedisplay h2{
+    color: white;
+}
+.side3 .messagedisplay p{
+    color: grey;
+}
