@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+body{
+    background: linear-gradient(orange, orangered);
+}
+.container{
+    margin: 30px auto;
+    width: 60%;
+    max-width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.formcont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+    border-radius: 10px;
+}
+.formcont h2{
+    margin-top: 40px;
+    font-family: poppins;
+    font-weight: 900;
+    color: rgb(9, 3, 65);
+    text-align: center;
+    text-transform: uppercase;
+}
+.formcont p{
+    margin-top: 10px;
+    color: rgba(253, 252, 252, 0.904);
+    font-weight: bold;
+    font-family: cursive;
+}
+.formcont form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.formcont form input{
+    width: 310px;
+    margin: 10px;
+    padding: 15px 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    border-bottom: 4px solid green;
+    background-color: white;
+}
+.formcont form input::placeholder{
+    color:orange;
+    font-weight: bold;
+}
+.formcont form input:focus{
+    border-bottom: 4px solid rgba(220, 20, 60, 0.774);
+    color: white;
+    background: grey;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.formcont form textarea::placeholder{
+    color: orange;
+    font-weight: bold;
+}
+.formcont form textarea:focus{
+    border-bottom: 4px solid rgba(220, 20, 60, 0.774);
+    color: white;
+    background: grey;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.formcont form textarea{
+    width: 310px;
+    height: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0px;
+    outline: 0;
+    border-radius: 5px;
+    border-bottom: 4px solid green;
+    background-color: white;
+}
+.formcont form button{
+    width: 100%;
+    padding: 15px;
+    margin: 20px 10px;
+    background: black;
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+}
