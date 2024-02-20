@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator App Design by Aburukayyat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form action="">
+                    <div class="display">
+                        <input type="text" id="displayBox" style="margin-right: 10px;">
+                    </div>
+                <div>
+                    <input type="button" value="DE" onclick="displayBox.value = displayBox.value.slice(0, -1);">
+                    <input type="button" value="AC" onclick="displayBox.value = ''">
+                    <input type="button" value="." onclick="displayBox.value += '.'">
+                    <input type="button" value="/" onclick="displayBox.value += '/'">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="displayBox.value += '7'">
+                    <input type="button" value="8" onclick="displayBox.value += '8'">
+                    <input type="button" value="9" onclick="displayBox.value += '9'">
+                    <input type="button" value="*" onclick="displayBox.value += '*'">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="displayBox.value += '4'">
+                    <input type="button" value="5" onclick="displayBox.value += '5'">
+                    <input type="button" value="6" onclick="displayBox.value += '6'">
+                    <input type="button" value="-" onclick="displayBox.value += '-'">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="displayBox.value += '1'">
+                    <input type="button" value="2" onclick="displayBox.value += '2'">
+                    <input type="button" value="3" onclick="displayBox.value += '3'">
+                    <input type="button" value="+" onclick="displayBox.value += '+'">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="displayBox.value += '00'">
+                    <input type="button" value="0" onclick="displayBox.value += '0'">
+                    <input type="button" value="=" class="equal" style="width: 145px;" onclick="displayBox.value = eval(displayBox.value)">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js">
+    </script>
+</body>
+</html>
