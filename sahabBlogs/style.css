@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:rgba(130, 211, 23, 0.479);
+}
+.nav-containaer{
+    width:100%;
+    border-bottom: 1px solid rgba(0,0,0, 0.3);
+    box-shadow: 0px px -1px 3px black;
+    position: relative;
+    background: rgba(130, 211, 23, 0.479);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu a{
+    text-decoration: none;
+    padding: 10px 8px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.menu a:hover{
+    color: rgba(170, 14, 14, 0.63);
+    border-bottom: 2px dashed orangered;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+
+}
+.logo h1 a{
+    cursor: pointer;
+    font-family: cursive;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.logo h1 a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+.blogs{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.blogs-container{
+    padding: 15px;
+    width: 900px;
+    margin: 10px;
+    /* border: 1px solid rgba(0,0,0, 0.3); */
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: justify;
+    cursor:default;
+}
+.blogs-container:hover{
+    /* background: rgba(128, 128, 128, 0.322); */
+    box-shadow: 3px 3px 6px white;
+    border: 0;
+    transform: scale(3px);
+}
+.blogs-container a{
+    position: absolute;
+    right: 5px;
+}
+.blogs-container h1{
+    padding: 10px;
+    color: orangered;
+    /* text-align: center; */
+}
+.blogs-container p{
+    margin-bottom: 10px;
+    color: rgba(128, 128, 128, 0.808);
+}
+.blogs-container a{
+    margin-bottom: 10px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    font-weight: 500;
+    font-family: cursive;
+    margin-top: 45;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+}
+footer p{
+    padding: 5px;
+}
+
+
+/* About Syle Starts */
+
+.about{
+    width: 960px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 0 auto;
+}
+.blog-pic{
+    width: 450px;
+}
+.about-story{
+    width: 450px;
+    text-align: justify;
+}
+.about-story h1{
+    color: orangered;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+.about-story span{
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 0.658);
+    font-weight: 700;
+}
+.about-story p{
+    color: gray;
+}
+.blog-pic img{
+    width: 100%;
+}
+
+/* Contact Style Start */
+.form-contact{
+    width: 560px;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+.form-contact form{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+.form-contact form input{
+    margin-top: 20px;
+    padding: 20px 25px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+}
+.form-contact form textarea{
+    margin-top: 20px;
+    padding: 20px 25px;
+    width: 560px;
+    height: 160px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+}
+.form-contact form button{
+    margin: 10px 0;
+    padding: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    background: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+}
+.form-head{
+    margin-top: 20px;
+    background: rgb(53, 97, 3);
+    padding: 5px 10px;
+    color: white;
+}
+.form-contact h1{
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.form-contact p{
+    color: white;
+}
